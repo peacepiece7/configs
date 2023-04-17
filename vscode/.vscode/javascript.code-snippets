@@ -24,7 +24,7 @@
   },
   "Try Catch Scope": {
     "prefix": "tc",
-    "body": "try {\n $0} catch (err) {\n  console.error(err)\n  throw new Error(err)\n}",
+    "body": "try {\n  $0\n} catch (err) {\n  throw new Error(err)\n}",
     "scope": "javascript, typescript, javascriptreact, typescriptreact"
   },
   "reactFunction": {

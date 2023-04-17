@@ -6,16 +6,17 @@
   "prettier.semi": false,
   "prettier.tabWidth": 2,
   "prettier.trailingComma": "all",
-  "prettier.printWidth": 120,
+  "prettier.printWidth": 100,
+  "prettier.singleAttributePerLine": true,
 
   // * prettier 개별 설정
   "[javascript]": {},
 
   "[typescriptreact]": {
-    "singleAttributePerLine": true
+    "prettier.singleAttributePerLine": true
   },
   "[javascriptreact]": {
-    "singleAttributePerLine": true
+    "prettier.singleAttributePerLine": true
   },
 
   "eslint.validate": [
@@ -30,5 +31,18 @@
   "editor.linkedEditing": true,
   "editor.minimap.autohide": true,
   "eslint.enable": true,
-  "window.zoomLevel": 1 // zoom level을 기본값으로 설정
+  "window.zoomLevel": 1, // zoom level을 기본값으로 설정
+  "editor.snippetSuggestions": "top" // intellisense가 최상위에 sinnpet을 출력합니다.
+
+  // theme
+  // "editor.tokenColorCustomizations": {
+  //   "comments": "#8d818e",
+  //   "functions": "#e27979",
+  //   "types": "#c2f2e3",
+  //   "strings": "#c9e3f3",
+  //   "keywords": "#f9dbdb",
+  //   "numbers": "#f5f3f3",
+  //   "variables": "#7091ee",
+  //   "textMateRules": []
+  // }
 }
